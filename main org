@@ -1,0 +1,21 @@
+from turtle import Turtle,Screen
+
+from  angle import Angle
+
+
+shy = Turtle()
+daf = Angle()
+shy.shape("turtle")
+
+
+cat = True
+while cat:
+    shy.color(daf.get())
+    count = daf.cou()
+    side = daf.sid()
+    print(count)
+    for  _ in range(count):
+        shy.forward(100)
+        shy.right(side)
+    if count ==10 :
+        cat = False
