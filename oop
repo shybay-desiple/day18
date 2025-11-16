@@ -1,0 +1,22 @@
+import random
+
+class Angle:
+
+
+    def __init__(self):
+        self.anglee = 2
+        self.sidee = 120
+    def get (self):
+        color1 = ['Violet', 'Indigo', 'Blue', 'Green', 'Yellow', 'Orange', 'Red']
+        color2 = random.choice(color1)
+        return color2
+    def cou (self):
+        self.anglee += 1
+        ra = self.anglee
+        return ra
+        print(ra)
+    def sid (self):
+        dda = self.sidee = 360/self.anglee
+        return dda
+        print(dda)
+
